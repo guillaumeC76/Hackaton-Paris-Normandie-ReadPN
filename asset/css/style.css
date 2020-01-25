@@ -1,1 +1,143 @@
 @import "reset.css";
+
+#img1 {
+    background-image: url("../img/bebe.jpeg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    height: 736px;
+}
+
+#logo img {
+    width: 60%;
+    margin: 3% 0 0 35%;
+}
+
+#contenu {
+    width: 100%;
+    height: 260px;
+    background: #2A2929; /* fallback color if gradients are not supported*/
+    background: -webkit-linear-gradient(1deg,rgba(42,41,41,0.7) 30%, rgba(29,29,29,0.2) 100%, #FFFFFF, #FFFFFF);
+    background: -moz-linear-gradient(1deg,rgba(42,41,41,0.7) 30%, rgba(29,29,29,0.2) 100%, #FFFFFF, #FFFFFF);
+    background: -o-linear-gradient(1deg,rgba(42,41,41,0.7) 30%, rgba(29,29,29,0.2) 100%, #FFFFFF, #FFFFFF);
+    background: linear-gradient(1deg,rgba(42,41,41,0.7) 30%, rgba(29,29,29,0.2) 100%, #FFFFFF, #FFFFFF);
+    position: absolute;
+    bottom: 0;
+    padding: 30px 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.4em;
+}
+
+p {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rond img {
+    width: 12%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.rond .validate {
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+
+
+.sidepanel {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3D3D3D;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.2s;
+}
+
+.sidepanel a img {
+    width: 10%;
+    margin-right: 10px;
+    float: left;
+}
+
+.barre {
+    width: 78%;
+    height: 2px;
+    background-color: #1D569F;
+    margin: 10px 0 10px 20%;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #59f160;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    float: left;
+    position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgba(248, 249, 255, 0);
+}
+
+#img2 {
+    background-image: url("../img/doudou.jpeg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    height: 736px;
+    opacity: 0;
+    display: none;
+}
+
+#img3 {
+    background-image: url("../img/carte.jpeg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    height: 736px;
+    opacity: 0;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
