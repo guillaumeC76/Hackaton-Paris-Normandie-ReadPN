@@ -17,8 +17,6 @@
 
     <div id="mySidepanel" class="sidepanel">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.php"><img src="asset/img/home.png" alt="">Accueil</a>
-        <div class="barre"></div>
         <a href="#"><img src="asset/img/ticket.png" alt="">Les avantages</a>
         <div class="barre"></div>
         <a href="register.php"><img src="asset/img/user.png" alt="">Inscription</a>
@@ -27,19 +25,17 @@
     </div>
 
         <button class="openbtn" onclick="openNav()">&#9776;</button>
-        <section id="logo">
+    <a href="index.php"><section id="logo">
             <img src="asset/img/PN.png" alt="Logo PN">
-        </section>
+        </section></a>
 
     <?php } else { ?>
 
     <div id="mySidepanel" class="sidepanel">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.php"><img src="asset/img/home.png" alt="">Accueil</a>
-        <div class="barre"></div>
         <a href="article.php"><img src="asset/img/article.png" alt="">Mes articles</a>
         <div class="barre"></div>
-        <a href="#"><img src="asset/img/podcast.png" alt="">Podcasts</a>
+        <a href="podcast.php"><img src="asset/img/podcast.png" alt="">Podcasts</a>
         <div class="barre"></div>
         <a href="#"><img src="asset/img/ticket.png" alt="">Mes avantages</a>
         <div class="barre"></div>
@@ -49,9 +45,10 @@
     </div>
 
         <button class="openbtn" onclick="openNav()">&#9776;</button>
+    <a href="index.php">
         <section id="logo">
             <img src="asset/img/PN.png" alt="Logo PN">
-        </section>
+        </section></a>
     <?php }?>
 
 

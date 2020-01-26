@@ -21,14 +21,22 @@ html, body {
 
 header {
     background-color: rgba(242, 255, 242, 0);
-    position: fixed;
+    position: absolute;
     z-index: 10;
 }
 
 #logo img {
     width: 60%;
     margin: 3% 0 0 35%;
-    position: fixed;
+}
+
+.p1 {
+    padding-top: 50px;
+}
+
+
+#podcast audio {
+    margin: 50px 0 30px 20px;
 }
 
 #contenu {
@@ -48,6 +56,37 @@ h2 {
     text-align: center;
     color: #FFFFFF;
     font-size: 1.4em;
+}
+
+h5 {
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+}
+
+#babyboom p {
+    color: #1D569F;
+    font-size: 1.1em;
+    padding: 20px 0;
+}
+
+#babyboom h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #1D569F;
+}
+
+#podcast h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #1D569F;
+}
+
+#babyboom {
+    padding: 20px;
+    line-height: 30px;
 }
 
 p {
@@ -99,7 +138,7 @@ p {
     width: 80%;
     height: 2px;
     background-color: #1D569F;
-    margin: 10px 0 10px 10%;
+    margin: 20px 0 10px 10%;
 }
 
 .sidepanel a {
@@ -357,4 +396,9 @@ h4 {
     to {
         opacity: 0;
     }
+}
+
+.babyboom {
+    width: 100%;
+    height: 80%;
 }
