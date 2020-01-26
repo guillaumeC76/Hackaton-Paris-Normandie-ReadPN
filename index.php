@@ -1,23 +1,14 @@
 <?php
+session_start();
+include ('inc/function.php');
+include ('inc/pdo.php');
+
+
+
 include('inc/header.php'); ?>
 
 
-<div id="mySidepanel" class="sidepanel">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#"><img src="asset/img/home.png" alt="">Accueil</a>
-    <div class="barre"></div>
-    <a href="#"><img src="asset/img/article.png" alt="">Mes articles</a>
-    <div class="barre"></div>
-    <a href="#"><img src="asset/img/podcast.png" alt="">Podcasts</a>
-    <div class="barre"></div>
-    <a href="#"><img src="asset/img/ticket.png" alt="">Mes avantages</a>
-    <div class="barre"></div>
-    <a href="#"><img src="asset/img/user.png" alt="">Mon compte</a>
-    <div class="barre"></div>
-    <a href="#"><img src="asset/img/croix.png" alt="">Déconnexion</a>
-</div>
 
-<button class="openbtn" onclick="openNav()">&#9776;</button>
 
 
 <section id="img1">
@@ -41,8 +32,8 @@ include('inc/header.php'); ?>
     </section>
 
     <section id="contenu">
-        <h2>Baby Boom, l’émission de TF1, tourne sa 8e saison à la maternité du CHU de Rouen</h2>
-        <p>C’est un coup de projecteur qui ravit la direction du CHU de Rouen. Et pour cause, des centaines de milliers de téléspectateurs découvriront bientôt les atouts de l’établissement de santé, et plus particulièrement de sa maternité.</p>
+        <h2>Football - N3 : le joli coup de Grand-Quevilly à Dieppe</h2>
+        <p>Face à une équipe incapable de trouver la faille, Grand-Quevilly a profité de l’occasion pour s’imposer 1 à 0 hier soir sur le terrain de Dieppe.</p>
         <div class="rond"><img src="asset/img/error.png" onclick="slide2()" alt=""></div>
         <div class="rond"><img src="asset/img/accept.png" onclick="slide2()" class="validate" alt=""></div>
     </section>
@@ -55,8 +46,8 @@ include('inc/header.php'); ?>
         </section>
 
         <section id="contenu">
-            <h2>Baby Boom, l’émission de TF1, tourne sa 8e saison à la maternité du CHU de Rouen</h2>
-            <p>C’est un coup de projecteur qui ravit la direction du CHU de Rouen. Et pour cause, des centaines de milliers de téléspectateurs découvriront bientôt les atouts de l’établissement de santé, et plus particulièrement de sa maternité.</p>
+            <h2>Le centre de marques d’Honfleur, leader français des outlets</h2>
+            <p>Commerce. Deux ans après son ouverture, le centre de marques d’Honfleur est classé premier outlet français et huitième au classement européen.</p>
             <div class="rond"><img src="asset/img/error.png" alt=""></div>
             <div class="rond"><img src="asset/img/accept.png" class="validate" alt=""></div>
         </section>

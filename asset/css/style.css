@@ -111,7 +111,7 @@ p {
 }
 
 #img2 {
-    background-image: url("../img/doudou.jpeg");
+    background-image: url("../img/soccer.jpeg");
     background-size: 120%;
     background-repeat: no-repeat;
     height: 736px;
@@ -120,13 +120,119 @@ p {
 }
 
 #img3 {
-    background-image: url("../img/carte.jpeg");
+    background-image: url("../img/achat.jpeg");
     background-size: 120%;
     background-repeat: no-repeat;
     height: 736px;
     opacity: 0;
     display: none;
 }
+
+/*//////////////////////////////////
+              CONTACT
+//////////////////////////////////*/
+
+
+
+
+h3 {
+    text-align: center;
+    margin: 40px 0 70px 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+h4 {
+    text-align: center;
+    margin: 40px 0 70px ;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.formpage {
+    width: 80%;
+    margin: 0 10%;
+}
+
+
+.formpage input {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1.5px solid black;
+    padding-left: 20px;
+}
+
+.formpage textarea{
+    background-color: white;
+    padding: 12px 20px;
+    color: gray;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    opacity: 80%;
+    width: 95%;
+    max-width: 95%;
+    min-width: 95%;
+    height: 200px;
+    max-height: 400px;
+}
+
+.formpage #boutonenvoyer {
+    width: 60%;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    background-color: #25313C;
+    margin: 80px 20%;
+    transition: all 0.5s;
+}
+
+.formpage span {
+    display: block;
+}
+
+.mouv {
+    margin: 350px 0;
+    text-align: center;
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
+.separation2 {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.centre {
+    margin-left: 32%;
+}
+
+.separation3 {
+    width: 50%;
+    margin: 0 0 3% 22%;
+}
+
+.ici {
+    display: inline;
+    float: left;
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 47%;
+    font-size: 1.5em;
+}
+
+.ici a {
+    color: #527dd2;
+}
+
+.ici a:hover {
+    color: black;
+}
+
 
 
 

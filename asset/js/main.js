@@ -9,12 +9,12 @@ function closeNav() {
 
 
 function slide() {
-    document.getElementById("img1").style.opacity = '0';
-    document.getElementById("img1").style.transition = '1s';
-    document.getElementById("img1").style.display = 'none';
-    document.getElementById("img2").style.opacity = '1';
-    document.getElementById("img2").style.transition = '1s';
-    document.getElementById("img2").style.display = 'block';
+    document.getElementById("img1").style.opacity = "0";
+    document.getElementById("img1").style.transition = "1s";
+    document.getElementById("img1").style.display = "none";
+    document.getElementById("img2").style.transition = "1s";
+    document.getElementById("img2").style.opacity = "1";
+    document.getElementById("img2").style.display = "block";
 }
 
 function slide2() {
