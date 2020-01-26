@@ -72,7 +72,7 @@ include ('inc/header.php'); ?>
     </div>
 
     <span>Pas de compte ? <a href="register.php">Inscrivez-vous</a></span><br>
-    <span class="autrepass">Ou alors vous avez <a href="forgetpassword.php">oublier votre mot de passe ?</a></span>
+    <span class="autrepass">Ou alors vous avez <a href="forgetpassword.php">oublié votre mot de passe ?</a></span>
 
     <input type="submit" name="submitted" value="connexion" id="boutonenvoyer">
 

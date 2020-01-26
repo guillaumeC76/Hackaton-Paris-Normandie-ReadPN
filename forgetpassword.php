@@ -35,7 +35,7 @@ if (!empty($_POST['submitted'])) {
 include ('inc/header.php'); ?>
 
 
-<h4>Changer de MDP</h4>
+<h3>Entrez votre adresse email</h3>
 
     <form action="" method="post" class="formpage">
 

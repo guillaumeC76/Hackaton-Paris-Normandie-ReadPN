@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <script src="asset/js/main.js"></script>
     <link rel="stylesheet" href="asset/css/style.css">
     <title>Paris Normandie New</title>
@@ -26,6 +27,9 @@
     </div>
 
         <button class="openbtn" onclick="openNav()">&#9776;</button>
+        <section id="logo">
+            <img src="asset/img/PN.png" alt="Logo PN">
+        </section>
 
     <?php } else { ?>
 
@@ -33,7 +37,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.php"><img src="asset/img/home.png" alt="">Accueil</a>
         <div class="barre"></div>
-        <a href="#"><img src="asset/img/article.png" alt="">Mes articles</a>
+        <a href="article.php"><img src="asset/img/article.png" alt="">Mes articles</a>
         <div class="barre"></div>
         <a href="#"><img src="asset/img/podcast.png" alt="">Podcasts</a>
         <div class="barre"></div>
@@ -45,6 +49,9 @@
     </div>
 
         <button class="openbtn" onclick="openNav()">&#9776;</button>
+        <section id="logo">
+            <img src="asset/img/PN.png" alt="Logo PN">
+        </section>
     <?php }?>
 
 

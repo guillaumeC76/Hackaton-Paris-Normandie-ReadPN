@@ -111,7 +111,7 @@ include ('inc/header.php'); ?>
     </div>
 
     <div class="separation2">
-    <label for="password2">Confirmer votre mot de passe</label>
+    <label for="password2">Confirmez votre mot de passe</label>
     <input type="password" name="password2" id="password2" value="">
     </div>
 
